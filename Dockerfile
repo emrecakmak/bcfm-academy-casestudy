@@ -1,18 +1,13 @@
-FROM golang:latest
+# syntax=docker/dockerfile:1
+FROM golang:1.16-alpine
 
-RUN mkdir /app
 WORKDIR /app
-
 COPY go.mod ./
 COPY go.sum ./
-
 RUN go mod download
-
 COPY *.go ./
 
-RUN go build -o main main.go
+RUN go build -o /bcfm-app
 
-EXPOSE 8080
-
-CMD ["/app/main"]
+CMD ["/bcfm-app"]
 
