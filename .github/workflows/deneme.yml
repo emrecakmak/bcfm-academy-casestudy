@@ -1,9 +1,13 @@
-name: deneme
+name: firstTryFix
 
-on: [push]
-    
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   firstJob:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-      - run: echo "Second try."
+      - name: First Try Problem Fix
+        run: echo "Let's try again with correct branch name."
