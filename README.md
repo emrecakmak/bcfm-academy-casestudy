@@ -57,4 +57,11 @@ docker run -d -p 8080:8080 bcfm-case
 
 
   
-![name surname](  https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5d5294e-eb12-4fbd-b54f-731d73ef6c5c%2FUntitled.png?table=block&id=eb292f2a-5e20-4c0e-9c30-978854fb4d00&spaceId=37eed0df-5489-4147-b89a-b5b1076cbd31&width=2000&userId=131eab5a-b4fa-40bf-90e1-f6977af8faad&cache=v2)
+![tempature](  https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5d5294e-eb12-4fbd-b54f-731d73ef6c5c%2FUntitled.png?table=block&id=eb292f2a-5e20-4c0e-9c30-978854fb4d00&spaceId=37eed0df-5489-4147-b89a-b5b1076cbd31&width=2000&userId=131eab5a-b4fa-40bf-90e1-f6977af8faad&cache=v2)
+
+## AWS Demo Link
+
+http://ec2-3-121-199-202.eu-central-1.compute.amazonaws.com:8080
+
+http://ec2-3-121-199-202.eu-central-1.compute.amazonaws.com:8080/tempature?city=Ankara
+  
