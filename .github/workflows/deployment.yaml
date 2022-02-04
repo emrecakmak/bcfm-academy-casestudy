@@ -6,7 +6,8 @@ on:
   
 jobs:
 
-  build:
+
+  deploy:
     name: Build ubuntu image
     runs-on: ubuntu-latest
     
