@@ -1,13 +1,9 @@
 name: deneme
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
     
 jobs:
   firstJob:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - name: First Try
-        run: echo "This is a first try"
+      - run: echo "Second try."
