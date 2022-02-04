@@ -1,0 +1,13 @@
+name: deneme
+
+on:
+  push:
+    branches:
+      - master
+    
+jobs:
+  firstJob:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: First Try
+        run: echo "This is a first try"
