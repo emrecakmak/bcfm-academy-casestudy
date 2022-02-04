@@ -2,7 +2,7 @@ name: deployment to amazon web services
 
 on:
   push:
-    branches: main
+    branches: [ main ] 
   
 jobs:
 
