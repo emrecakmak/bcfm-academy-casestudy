@@ -2,10 +2,10 @@ name: Deploy to amazon web services
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
-
+  
   deploy:
     name: Build ubuntu image
     runs-on: ubuntu-latest
