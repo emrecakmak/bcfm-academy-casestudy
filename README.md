@@ -16,7 +16,7 @@ Bu repo Bestcloudfor.me case study projesini içerir.
 #### Şehrin sıcaklık derecesini döner
 
 ```http
-  GET localhost:8080/tempature=?city=${city}
+  GET localhost:8080/temperature=?city=${city}
   
 ```
 
@@ -57,7 +57,7 @@ docker run -d -p 8080:8080 bcfm-case
 
 
   
-![tempature](  https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5d5294e-eb12-4fbd-b54f-731d73ef6c5c%2FUntitled.png?table=block&id=eb292f2a-5e20-4c0e-9c30-978854fb4d00&spaceId=37eed0df-5489-4147-b89a-b5b1076cbd31&width=2000&userId=131eab5a-b4fa-40bf-90e1-f6977af8faad&cache=v2)
+![temperature](  https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd7acc4c0-5b08-4638-bf58-01c78fe8e3bc%2FUntitled.png?table=block&id=fc4a664c-ee78-4f16-aaa7-d2413720dee0&spaceId=37eed0df-5489-4147-b89a-b5b1076cbd31&width=2000&userId=131eab5a-b4fa-40bf-90e1-f6977af8faad&cache=v2)
 
 ## AWS Demo Link
 
