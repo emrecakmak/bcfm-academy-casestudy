@@ -61,7 +61,5 @@ docker run -d -p 8080:8080 bcfm-case
 
 ## AWS Demo Link
 
-http://ec2-3-121-199-202.eu-central-1.compute.amazonaws.com:8080
-
-http://ec2-3-121-199-202.eu-central-1.compute.amazonaws.com:8080/tempature?city=Ankara
-  
+http://ec2-3-125-40-70.eu-central-1.compute.amazonaws.com:8080
+http://ec2-3-125-40-70.eu-central-1.compute.amazonaws.com:8080/temperature?city=Ankara
