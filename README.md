@@ -9,13 +9,13 @@ Bu repo Bestcloudfor.me case study projesini içerir.
 
 #### Name ve surname bilgisini döner.
 
-```http
+```https
   GET localhost:8080
 ```
 
 #### Şehrin sıcaklık derecesini döner
 
-```http
+```https
   GET localhost:8080/temperature=?city=${city}
   
 ```
